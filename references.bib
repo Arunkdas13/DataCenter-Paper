@@ -1,0 +1,304 @@
+% Skeleton bibliography -- fill in exact pages/volumes/DOIs before submission.
+% Entries below are seeded from sources already in the project (EIP report
+% citation list) plus standard climate-methodology references. Verify every
+% field; several are marked TODO for you to complete.
+
+@techreport{eip2026powerbehindai,
+  title        = {The Power Behind AI: How the Data Center Boom Is Fueling a New Wave of Gas-Fired Power Plants},
+  author       = {{Environmental Integrity Project}},
+  institution  = {Environmental Integrity Project},
+  year         = {2026},
+  month        = jul,
+  note         = {EIP\_Report\_ThePowerBehindAI\_7.1.26.pdf},
+}
+
+@misc{bloombergnef2025aipowergrid,
+  title        = {{AI} and the Power Grid: Where the Rubber Meets the Road},
+  author       = {{BloombergNEF}},
+  year         = {2025},
+  month        = dec,
+  howpublished = {\url{https://about.bnef.com/insights/clean-energy/ai-and-the-power-grid-where-the-rubber-meets-the-road/}},
+}
+
+@misc{fractracker2026datacenters,
+  title        = {Data Centers Identified by FracTracker Alliance},
+  author       = {{FracTracker Alliance}},
+  year         = {2026},
+  howpublished = {Dataset, generated 2026-01-29},
+}
+
+@article{gallup2026opposedatacenters,
+  title        = {Americans Oppose AI Data Centers in Their Area},
+  author       = {Jones, Jeffrey M.},
+  journal      = {Gallup},
+  year         = {2026},
+  month        = may,
+  howpublished = {\url{https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx}},
+}
+
+@techreport{ucs2026datacenterpowerplay,
+  title        = {Data Center Power Play: How Clean Energy Can Meet Rising Electricity Demand While Delivering Climate and Health Benefits},
+  author       = {{Union of Concerned Scientists}},
+  institution  = {Union of Concerned Scientists},
+  year         = {2026},
+  month        = jan,
+}
+
+@misc{ieefa2026gasstampede,
+  title        = {The Misguided Stampede to Build Gas Power Plants},
+  author       = {Wamstead, Dennis},
+  howpublished = {Institute for Energy Economics and Financial Analysis},
+  year         = {2026},
+  month        = apr,
+}
+
+@article{umich2025datacentersimpact,
+  title        = {What Happens When Data Centers Come to Town?},
+  author       = {Nguyen, Terry and Green, Ben},
+  journal      = {Science, Technology, and Public Policy Program, Gerald R. Ford School of Public Policy, University of Michigan},
+  year         = {2025},
+  month        = jul,
+}
+
+@techreport{ipcc2021ar6wg1,
+  title        = {Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change},
+  author       = {{IPCC}},
+  year         = {2021},
+  note         = {Chapter 7 (Forster et al.), Global Warming Potential values used in \S4.2 and Table 2. TODO: confirm exact GWP20/GWP100 methane values (fossil vs. biogenic) you use.},
+}
+
+@article{pierrehumbert2014gwp,
+  title        = {Short-Lived Climate Pollution},
+  author       = {Pierrehumbert, Raymond T.},
+  journal      = {Annual Review of Earth and Planetary Sciences},
+  volume       = {42},
+  pages        = {341--379},
+  year         = {2014},
+  doi          = {10.1146/annurev-earth-060313-054843},
+}
+
+@misc{epa2023scghg,
+  title        = {Report on the Social Cost of Greenhouse Gases: Estimates Incorporating Recent Scientific Advances},
+  author       = {{U.S. Environmental Protection Agency}},
+  year         = {2023},
+  note         = {TODO: confirm this is the version you use for CO2/CH4 damage pricing in \S3.5.},
+}
+
+@article{alvarez2018methane,
+  title        = {Assessment of methane emissions from the U.S. oil and gas supply chain},
+  author       = {Alvarez, Ramon A. and others},
+  journal      = {Science},
+  volume       = {361},
+  number       = {6398},
+  pages        = {186--188},
+  year         = {2018},
+  doi          = {10.1126/science.aar7204},
+}
+
+% ---------------------------------------------------------------
+% DataCenter-FAIR methodology: direct precedent + underlying climate
+% model sources (added when the FAIR climate layer was built).
+% ---------------------------------------------------------------
+
+@article{cui2024aviationfair,
+  title        = {Path analysis for controlling climate change in global aviation},
+  author       = {Cui, Qiang and Lei, Yi-lin and Jia, Zi-ke and Wang, Yu and Li, Ye},
+  journal      = {iScience},
+  volume       = {27},
+  pages        = {110126},
+  year         = {2024},
+  month        = jun,
+  doi          = {10.1016/j.isci.2024.110126},
+  note         = {Direct methodological precedent for DataCenter-FAIR (Sec.~4); ``Aviation-FAIR'' framework and equations.},
+}
+
+@article{millar2017fair,
+  title        = {A modified impulse-response representation of the global near-surface air temperature and atmospheric concentration response to carbon dioxide emissions},
+  author       = {Millar, R. J. and Nicholls, Z. R. and Friedlingstein, P. and Allen, M. R.},
+  journal      = {Atmospheric Chemistry and Physics},
+  volume       = {17},
+  pages        = {7213--7228},
+  year         = {2017},
+  doi          = {10.5194/acp-17-7213-2017},
+  note         = {FAIR v1.0; source of the two-box thermal response parameters (d1, d2, q1, q2) used in Sec.~4.},
+}
+
+@article{smith2018fair,
+  title        = {FAIR v1.3: a simple emissions-based impulse response and carbon cycle model},
+  author       = {Smith, C. J. and Forster, P. M. and Allen, M. and Leach, N. and Millar, R. J. and Passerello, G. A. and Regayre, L. A.},
+  journal      = {Geoscientific Model Development},
+  volume       = {11},
+  pages        = {2273--2297},
+  year         = {2018},
+  doi          = {10.5194/gmd-11-2273-2018},
+  note         = {FAIR v1.3, the version Aviation-FAIR builds on and DataCenter-FAIR adapts.},
+}
+
+@article{joos2013carbon,
+  title        = {Carbon dioxide and climate impulse response functions for the computation of greenhouse gas metrics: a multi-model analysis},
+  author       = {Joos, F. and Roth, R. and Fuglestvedt, J. S. and Peters, G. P. and Enting, I. G. and von Bloh, W. and Brovkin, V. and Burke, E. J. and Eby, M. and Edwards, N. R. and others},
+  journal      = {Atmospheric Chemistry and Physics},
+  volume       = {13},
+  pages        = {2793--2825},
+  year         = {2013},
+  doi          = {10.5194/acp-13-2793-2013},
+  note         = {Source of the fixed-parameter 4-box CO2 carbon-cycle partition fractions/time constants used in Sec.~4 (we use the published default parametrization rather than FAIR's state-dependent feedback -- see Sec.~5 limitations).},
+}
+
+@article{etminan2016radiative,
+  title        = {Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing},
+  author       = {Etminan, M. and Myhre, G. and Highwood, E. J. and Shine, K. P.},
+  journal      = {Geophysical Research Letters},
+  volume       = {43},
+  number       = {24},
+  pages        = {12614--12623},
+  year         = {2016},
+  doi          = {10.1002/2016GL071930},
+  note         = {Source of the concentration-based CO2/CH4 ERF formulas reused in Sec.~4 (general atmospheric physics, not aviation- or sector-specific).},
+}
+
+@article{zhou2026saftripartite,
+  title        = {Study on phased strategies for sustainable aviation fuel (SAF) industrialization based on a tripartite evolutionary game},
+  author       = {Zhou, Lianbin and Wang, Xi and Zhang, Peiwen and Jiang, Weiwei},
+  journal      = {Frontiers in Environmental Science},
+  volume       = {13},
+  pages        = {1731253},
+  year         = {2026},
+  doi          = {10.3389/fenvs.2025.1731253},
+  note         = {Roadmap precedent (Sec.~5) for a future tripartite evolutionary-game policy layer (regulator / data center operator / gas-plant developer), mapped from their (government / airlines / fuel producers) model.},
+}
+
+@article{sartzetakis2025temporaltradeoffs,
+  title        = {Evaluating temporal trade-offs in climate effects from carbon dioxide removal strategies across different metrics: a case study on wetland restoration},
+  author       = {Sartzetakis, Stavroula S. and Sun, Tianyi and Xu, Yangyang and Ury, Emily A. and Ocko, Ilissa B. and Buma, Brian},
+  journal      = {Environmental Research Letters},
+  volume       = {20},
+  pages        = {084050},
+  year         = {2025},
+  doi          = {10.1088/1748-9326/adeb9d},
+  note         = {Motivating precedent for Sec.~1/6 (Introduction/Roadmap): establishes that single-horizon CO2e/GWP obscures ``temporal trade-offs'' between short- and long-lived climate forcers, and that reduced-complexity climate models (their MAGICC/FaIR tier) are the most rigorous of the three metrics they compare, i.e., the tier DataCenter-FAIR already sits in.},
+}
+
+@article{chen2022permian,
+  title        = {Quantifying regional methane emissions in the New Mexico Permian Basin with a comprehensive aerial survey},
+  author       = {Chen, Yuanlei and Sherwin, Evan D. and Berman, Elena S. F. and Jones, Brian B. and Gordon, Matthew P. and Wetherley, Erin B. and Kort, Eric A. and Brandt, Adam R.},
+  journal      = {Environmental Science \& Technology},
+  volume       = {56},
+  number       = {7},
+  pages        = {4317--4323},
+  year         = {2022},
+  publisher    = {ACS Publications},
+  doi          = {10.1021/acs.est.1c06458},
+}
+
+@article{williams1992reinforce,
+  title        = {Simple statistical gradient-following algorithms for connectionist reinforcement learning},
+  author       = {Williams, Ronald J.},
+  journal      = {Machine Learning},
+  volume       = {8},
+  number       = {3--4},
+  pages        = {229--256},
+  year         = {1992},
+  publisher    = {Springer},
+}
+
+@misc{uchicago2026slugulator,
+  title        = {Slugulator: CO$_2$ vs.\ CH$_4$ pulse-response climate model tool},
+  author       = {{University of Chicago}},
+  year         = {2026},
+  howpublished = {\url{https://climatemodels.uchicago.edu/slugulator/slugulator.html}},
+  note         = {Interactive tool illustrating the differing atmospheric lifetime and radiative-forcing response of CO$_2$ vs.\ CH$_4$ pulses; referenced, not reproduced, in Section~1.},
+}
+
+% ---------------------------------------------------------------
+% Cost-curve and remaining leak-rate sources, added to close open
+% reference gaps: the LDAR and CCS cost ranges in Sec.~2, and the
+% Appalachian basin leak rate in Sec.~2, were stated in-text with no
+% matching \citep. All four sources below are
+% real, verified via direct web lookup (not fabricated); the AMI entry
+% cites the accessible JPT writeup since the primary AMI report is not
+% independently hosted at a stable URL.
+% ---------------------------------------------------------------
+
+@techreport{icf2014methane,
+  title        = {Economic Analysis of Methane Emission Reduction Opportunities in the U.S. Onshore Oil and Natural Gas Industries},
+  author       = {{ICF International}},
+  institution  = {Prepared for the Environmental Defense Fund},
+  year         = {2014},
+  month        = mar,
+  note         = {Source of the LDAR cost curve (\$6--17/tCO$_2$e for most addressable reduction, steepening past ${\sim}$70\% deployment) used in Sec.~2.},
+}
+
+@misc{iea2025methanetracker,
+  title        = {Global Methane Tracker 2025},
+  author       = {{International Energy Agency}},
+  year         = {2025},
+  howpublished = {\url{https://www.iea.org/reports/global-methane-tracker-2025}},
+  note         = {Cross-check source for the LDAR marginal abatement cost curve used in Sec.~2.},
+}
+
+@techreport{aldy2025methaneabatement,
+  title        = {Methane Abatement Costs in the Oil and Gas Industry: Survey and Synthesis},
+  author       = {Aldy, Joseph E. and Reinhardt, Forest L. and Stavins, Robert N.},
+  institution  = {National Bureau of Economic Research},
+  type         = {NBER Working Paper},
+  number       = {33564},
+  year         = {2025},
+  month        = mar,
+  doi          = {10.3386/w33564},
+  note         = {Harvard Kennedy School/Belfer Center-affiliated authors; cross-check source for the LDAR cost curve used in Sec.~2.},
+}
+
+@article{rubinzhai2012ccs,
+  title        = {The Cost of Carbon Capture and Storage for Natural Gas Combined Cycle Power Plants},
+  author       = {Rubin, Edward S. and Zhai, Haibo},
+  journal      = {Environmental Science \& Technology},
+  year         = {2012},
+  doi          = {10.1021/es204514f},
+  note         = {Directly on this project's own asset class (NGCC); source of the \$56--71/tCO$_2$e CCS cost range at approximately 90\% capture used in Sec.~2. The claim that costs stay roughly flat as capture rises toward 95--97\% draws on the later NETL analysis below, not on this paper alone.},
+}
+
+@techreport{netl2023ngcc,
+  title        = {Methodology for Estimating Performance and Cost of Natural Gas Combined Cycle Plants with Carbon Capture},
+  author       = {{National Energy Technology Laboratory}},
+  institution  = {U.S. Department of Energy},
+  year         = {2023},
+  month        = jun,
+  note         = {Source of the claim that CCS cost stays roughly flat as capture rises from Rubin and Zhai's ${\sim}$90\% toward 95--97\%, used alongside Rubin and Zhai's base cost range in Sec.~2.},
+}
+
+@misc{ami2025appalachian,
+  title        = {Methane Intensity Study Finds Lowest Levels in Appalachian Basin},
+  author       = {{Journal of Petroleum Technology}},
+  howpublished = {Society of Petroleum Engineers, \url{https://jpt.spe.org/methane-intensity-study-finds-lowest-levels-in-appalachian-basin}},
+  year         = {2026},
+  month        = mar,
+  note         = {Reports results of the Appalachian Methane Initiative's 2025 monitoring campaign: measured a 0.52\% methane loss rate from the full natural gas supply chain across ${\sim}$17,000 surveyed sites, the lowest of any major U.S.\ basin -- source of the Appalachian basin leak rate used in Sec.~2. Cited as the accessible JPT writeup of the AMI campaign, not the AMI report itself.},
+}
+
+@techreport{epa1996ap42,
+  title        = {AP-42, Fifth Edition, Volume I, Chapter 3: Stationary Internal Combustion Sources -- Section 3.1 Stationary Gas Turbines; Section 3.2 Natural Gas-Fired Reciprocating Engines},
+  author       = {{U.S. Environmental Protection Agency}},
+  institution  = {U.S. EPA Office of Air Quality Planning and Standards},
+  year         = {2000},
+  note         = {AP-42 industry-average CH$_4$ emission factors, not precise source-specific measurements (per EPA's own guidance on this document): Sec.~3.1 (turbines) 0.0086 lb/MMBtu; Sec.~3.2 (lean-burn reciprocating engines) 1.25 lb/MMBtu -- source of the $\sim$145$\times$ turbine-vs-reciprocating-engine AP-42-factor comparison used in Sec.~2.},
+}
+
+@misc{wvdep2026pointpleasant,
+  title        = {Air Quality Permit Application: Monarch Cloud Campus (864 $\times$ Caterpillar G3520K Reciprocating Engines)},
+  author       = {{West Virginia Department of Environmental Protection}},
+  howpublished = {Permit filing, Point Pleasant, WV},
+  year         = {2026},
+  note         = {Manufacturer-factor estimate 38,021 t CH$_4$/yr (slip only) and an EPA AP-42 in-service-factor estimate of $\sim$85,800 t/yr on the same fleet, both derived from the permit's disclosed equipment specifications rather than tied to a specific page or table in the WVDEP application; not yet independently cross-checked against the underlying filing.},
+}
+
+@techreport{bauer2024timing,
+  title        = {The Timing versus Allocation Trade-off in Politically Constrained Climate Policies},
+  author       = {Bauer, Adam Michael and Hallegatte, St{\'e}phane and McIsaac, Florent},
+  institution  = {World Bank Group},
+  type         = {Policy Research Working Paper},
+  number       = {10971},
+  year         = {2024},
+  month        = nov,
+  note         = {Formalizes the ``timing versus allocation'' trade-off in politically constrained decarbonization: preserving optimal investment timing costs less than preserving optimal cross-sector allocation. Motivates this paper's own sequencing framing in Sec.~1.},
+}
